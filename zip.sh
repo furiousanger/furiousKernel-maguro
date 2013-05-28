@@ -9,7 +9,7 @@ chmod 744 boot.img-ramdisk/sbin/checkt
 echo "making boot image"
 ./img.sh
 
-zipfile="furiousKernel-maguro-4.2_v1.0.zip"
+zipfile="furiousKernel-maguro-4.2_v1.1.zip"
 if [ ! $4 ]; then
 	rm -f /tmp/*.img
 	echo "making zip file"
